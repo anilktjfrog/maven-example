@@ -43,7 +43,7 @@ jobs:
 
           # [Mandatory]
           # JFrog platform URL
-          JF_URL: https://dhanushvm07.jfrog.io/
+          JF_URL: https://${{ vars.JF_URL }}/
           JF_GIT_AGGREGATE_FIXES: "TRUE"
 
           # [Mandatory if JF_USER and JF_PASSWORD are not provided]
